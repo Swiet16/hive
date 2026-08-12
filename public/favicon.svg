@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <!-- Hive hexagons -->
+  <path d="M32 12 L48 21 L48 39 L32 48 L16 39 L16 21 Z" fill="none" stroke="white" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M32 22 L40 26.5 L40 35.5 L32 40 L24 35.5 L24 26.5 Z" fill="white" opacity="0.95"/>
+  <circle cx="32" cy="31" r="3.5" fill="url(#a)"/>
+</svg>
